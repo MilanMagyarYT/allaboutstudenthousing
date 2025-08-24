@@ -12,12 +12,7 @@ export default function Home() {
   return (
     <div className="homepage-background">
       <Container maxWidth="xl" className="container">
-        {!phoneViewActive ? (
-          <Menubar />
-        ) : (
-          // ----------------- MOBILE VIEW -----------------
-          <MobileMenuBar />
-        )}
+        {!phoneViewActive ? <Menubar /> : <MobileMenuBar />}
       </Container>
     </div>
   );

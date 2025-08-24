@@ -45,7 +45,7 @@ export default function HeroSection() {
           >
             {/* Replace src with your cutout */}
             <Image
-              src="/hero-portrait.png"
+              src="/IMG_9245.jpg"
               alt="Portrait"
               width={300}
               height={300}
@@ -79,7 +79,7 @@ export default function HeroSection() {
               height: 8,
               width: 180,
               borderRadius: 999,
-              backgroundColor: "#55cfe6",
+              backgroundColor: "#ffb000",
             }}
           />
 
@@ -87,13 +87,13 @@ export default function HeroSection() {
             sx={{ fontSize: { xs: 18, md: 22 }, color: "#222", maxWidth: 760 }}
           >
             We&apos;re Milan & Andrei. We&apos;re two Software Developers turned
-            Start-up Founders, Housing Experts, here to help you with finding
-            housing,{" "}
+            Start-up Founders, Housing Experts, here to help you move to the
+            Netherlands,{" "}
             <Box
               component="span"
               sx={{ fontWeight: 700, textDecoration: "underline" }}
             >
-              more securily & accessibly in the Netherlands
+              more securily, accessibly & stress-free
             </Box>
             .
           </Typography>

@@ -44,7 +44,7 @@ export default function MobileHeroSection() {
             }}
           >
             <Image
-              src="/hero-portrait.png"
+              src="/IMG_9245.jpg"
               alt="Portrait"
               width={150}
               height={150}
@@ -79,7 +79,7 @@ export default function MobileHeroSection() {
               height: 5,
               width: 180,
               borderRadius: 999,
-              backgroundColor: "#55cfe6",
+              backgroundColor: "#ffb000",
               mx: { xs: "auto", md: 0 }, // center underline on mobile
             }}
           />
@@ -93,13 +93,13 @@ export default function MobileHeroSection() {
             }}
           >
             We&apos;re Milan & Andrei. We&apos;re two Software Developers turned
-            Start-up Founders, Housing Experts, here to help you with finding
-            housing,{" "}
+            Start-up Founders, Housing Experts, here to help you move to the
+            Netherlands,{" "}
             <Box
               component="span"
               sx={{ fontWeight: 700, textDecoration: "underline" }}
             >
-              more securily & accessibly in the Netherlands
+              more securily, accessibly & stress-free
             </Box>
             .
           </Typography>

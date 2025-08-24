@@ -1,5 +1,6 @@
 import { Box, Button, Link, Typography } from "@mui/material";
-import "./HomePage.css";
+import "./AboutPage.css";
+import FreeResourcesDropdown from "../FreeResourceDropDown";
 
 export default function AboutMenuBar() {
   return (
@@ -7,7 +8,7 @@ export default function AboutMenuBar() {
       sx={{
         bgcolor: "#FFEACC",
         pl: "1.5rem",
-        pt: "2.5rem",
+        pt: "1.5rem",
         pb: "1.5rem",
         pr: "5rem",
         borderRadius: "20px",
@@ -42,6 +43,7 @@ export default function AboutMenuBar() {
           >
             About
           </Typography>
+          <FreeResourcesDropdown />
           <Typography
             sx={{
               minWidth: 100,
@@ -50,17 +52,7 @@ export default function AboutMenuBar() {
               ml: "2rem",
             }}
           >
-            Free Resources
-          </Typography>
-          <Typography
-            sx={{
-              minWidth: 100,
-              color: "black",
-              fontSize: 18,
-              ml: "2rem",
-            }}
-          >
-            Housing Products
+            30-Day Search Strategy
           </Typography>
           <Button
             variant="contained"

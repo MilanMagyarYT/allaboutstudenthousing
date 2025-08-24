@@ -16,8 +16,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import MobileHeroSection from "./MobileHeroSection";
 import { useRouter } from "next/navigation";
+import FreeResourcesDropdown from "./FreeResourceDropDown";
 
-export default function Menubar() {
+export default function MobileMenubar() {
   const [open, setOpen] = useState(false);
   const router = useRouter();
 
@@ -106,25 +107,15 @@ export default function Menubar() {
               primaryTypographyProps={{ fontSize: 16, color: "black" }}
             />
           </ListItemButton>
+          <FreeResourcesDropdown />
           <ListItemButton
             onClick={() => {
               // do stuff (close drawer, log analytics, etc.)
-              router.push("/free-resources");
+              router.push("/30-day-search-strategy");
             }}
           >
             <ListItemText
-              primary="Free Resources"
-              primaryTypographyProps={{ fontSize: 16, color: "black" }}
-            />
-          </ListItemButton>
-          <ListItemButton
-            onClick={() => {
-              // do stuff (close drawer, log analytics, etc.)
-              router.push("/products");
-            }}
-          >
-            <ListItemText
-              primary="Products"
+              primary="30-Day Search Strategy"
               primaryTypographyProps={{ fontSize: 16, color: "black" }}
             />
           </ListItemButton>

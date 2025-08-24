@@ -10,11 +10,12 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
-import "./HomePage.css";
+import "./AboutPage.css";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useRouter } from "next/navigation";
+import FreeResourcesDropdown from "../FreeResourceDropDown";
 
 export default function MobileAboutMenuBar() {
   const [open, setOpen] = useState(false);
@@ -105,25 +106,15 @@ export default function MobileAboutMenuBar() {
               primaryTypographyProps={{ fontSize: 16, color: "black" }}
             />
           </ListItemButton>
+          <FreeResourcesDropdown />
           <ListItemButton
             onClick={() => {
               // do stuff (close drawer, log analytics, etc.)
-              router.push("/free-resources");
+              router.push("/30-day-search-strategy");
             }}
           >
             <ListItemText
-              primary="Free Resources"
-              primaryTypographyProps={{ fontSize: 16, color: "black" }}
-            />
-          </ListItemButton>
-          <ListItemButton
-            onClick={() => {
-              // do stuff (close drawer, log analytics, etc.)
-              router.push("/products");
-            }}
-          >
-            <ListItemText
-              primary="Products"
+              primary="30-Day Search Strategy"
               primaryTypographyProps={{ fontSize: 16, color: "black" }}
             />
           </ListItemButton>

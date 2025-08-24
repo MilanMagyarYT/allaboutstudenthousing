@@ -1,6 +1,7 @@
 import { Box, Button, Link, Typography } from "@mui/material";
 import HeroSection from "./HeroSection";
 import "./HomePage.css";
+import FreeResourcesDropdown from "./FreeResourceDropDown";
 
 export default function Menubar() {
   return (
@@ -43,6 +44,8 @@ export default function Menubar() {
           >
             About
           </Typography>
+          <FreeResourcesDropdown />
+
           <Typography
             sx={{
               minWidth: 100,
@@ -51,17 +54,7 @@ export default function Menubar() {
               ml: "2rem",
             }}
           >
-            Free Resources
-          </Typography>
-          <Typography
-            sx={{
-              minWidth: 100,
-              color: "black",
-              fontSize: 18,
-              ml: "2rem",
-            }}
-          >
-            Housing Products
+            30-Day Search Strategy
           </Typography>
           <Button
             variant="contained"
