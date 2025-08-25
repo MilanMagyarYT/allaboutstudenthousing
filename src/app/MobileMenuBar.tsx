@@ -16,7 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import MobileHeroSection from "./MobileHeroSection";
 import { useRouter } from "next/navigation";
-import FreeResourcesDropdown from "./FreeResourceDropDown";
+import FreeResourcesDropdown from "./FreeResourcesDropdown";
 
 export default function MobileMenubar() {
   const [open, setOpen] = useState(false);

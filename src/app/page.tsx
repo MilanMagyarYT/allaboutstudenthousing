@@ -5,6 +5,8 @@ import "./HomePage.css";
 import Menubar from "./MenuBar";
 import MobileMenuBar from "./MobileMenuBar";
 import { useMediaQuery } from "@mui/material";
+import Footer from "./Footer";
+import MobileFooter from "./MobileFooter";
 
 export default function Home() {
   const phoneViewActive = useMediaQuery("(max-width:1200px)", { noSsr: true });
@@ -13,6 +15,7 @@ export default function Home() {
     <div className="homepage-background">
       <Container maxWidth="xl" className="container">
         {!phoneViewActive ? <Menubar /> : <MobileMenuBar />}
+        {!phoneViewActive ? <Footer /> : <MobileFooter />}
       </Container>
     </div>
   );

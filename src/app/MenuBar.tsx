@@ -1,7 +1,7 @@
 import { Box, Button, Link, Typography } from "@mui/material";
 import HeroSection from "./HeroSection";
 import "./HomePage.css";
-import FreeResourcesDropdown from "./FreeResourceDropDown";
+import FreeResourcesDropdown from "./FreeResourcesDropdown";
 
 export default function Menubar() {
   return (
@@ -47,11 +47,14 @@ export default function Menubar() {
           <FreeResourcesDropdown />
 
           <Typography
+            component={Link}
+            href="/30-day-search-strategy"
             sx={{
               minWidth: 100,
               color: "black",
               fontSize: 18,
               ml: "2rem",
+              textDecoration: "none",
             }}
           >
             30-Day Search Strategy

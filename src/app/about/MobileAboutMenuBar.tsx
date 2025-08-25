@@ -15,7 +15,7 @@ import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useRouter } from "next/navigation";
-import FreeResourcesDropdown from "../FreeResourceDropDown";
+import FreeResourcesDropdown from "../FreeResourcesDropdown";
 
 export default function MobileAboutMenuBar() {
   const [open, setOpen] = useState(false);

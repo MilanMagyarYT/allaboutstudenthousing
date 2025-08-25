@@ -96,7 +96,7 @@ export default function FreeResourcesDropdown() {
           <ListItemButton
             onClick={() => {
               setOpen(false);
-              router.push("/resources/email-template");
+              router.push("/email-template");
             }}
             sx={{ borderRadius: 2 }}
           >
@@ -112,7 +112,7 @@ export default function FreeResourcesDropdown() {
           <ListItemButton
             onClick={() => {
               setOpen(false);
-              router.push("/resources/to-do-list");
+              router.push("/to-do-list");
             }}
             sx={{ borderRadius: 2 }}
           >

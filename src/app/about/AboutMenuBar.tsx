@@ -1,6 +1,6 @@
 import { Box, Button, Link, Typography } from "@mui/material";
 import "./AboutPage.css";
-import FreeResourcesDropdown from "../FreeResourceDropDown";
+import FreeResourcesDropdown from "../FreeResourcesDropdown";
 
 export default function AboutMenuBar() {
   return (
