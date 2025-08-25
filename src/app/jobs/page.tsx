@@ -5,17 +5,17 @@ import AboutMenuBar from "../about/AboutMenuBar";
 import MobileAboutMenuBar from "../about/MobileAboutMenuBar";
 import Footer from "../Footer";
 import MobileFooter from "../MobileFooter";
-import ContactElement from "./ContactElement";
-import MobileContactElement from "./MobileContactElement";
+import JobsElement from "./JobsElement";
+import MobileJobsElement from "./MobileJobsElement";
 
-export default function ContactPage() {
+export default function JobsPage() {
   const phoneViewActive = useMediaQuery("(max-width:1200px)", { noSsr: true });
 
   return (
     <div className="homepage-background">
       <Container maxWidth="xl" className="container">
         {!phoneViewActive ? <AboutMenuBar /> : <MobileAboutMenuBar />}
-        {!phoneViewActive ? <ContactElement /> : <MobileContactElement />}
+        {!phoneViewActive ? <JobsElement /> : <MobileJobsElement />}
         {!phoneViewActive ? <Footer /> : <MobileFooter />}
       </Container>
     </div>

@@ -111,7 +111,7 @@ export default function MobileMenubar() {
           <ListItemButton
             onClick={() => {
               // do stuff (close drawer, log analytics, etc.)
-              router.push("/30-day-search-strategy");
+              router.push("https://www.findstudenthousing.nl/");
             }}
           >
             <ListItemText

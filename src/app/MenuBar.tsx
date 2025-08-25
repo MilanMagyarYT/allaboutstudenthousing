@@ -48,7 +48,7 @@ export default function Menubar() {
 
           <Typography
             component={Link}
-            href="/30-day-search-strategy"
+            href="https://www.findstudenthousing.nl/"
             sx={{
               minWidth: 100,
               color: "black",

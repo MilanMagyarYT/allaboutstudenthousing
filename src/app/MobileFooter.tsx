@@ -70,7 +70,10 @@ export default function MobileFooter() {
         links: [
           { label: "Email Template", href: "email-template" },
           { label: "To-Do List", href: "/to-do-list" },
-          { label: "30-Day Search Strategy", href: "/30-day-search-strategy" },
+          {
+            label: "30-Day Search Strategy",
+            href: "https://www.findstudenthousing.nl/",
+          },
         ],
       },
     ];

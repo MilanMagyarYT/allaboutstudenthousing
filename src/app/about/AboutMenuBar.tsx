@@ -45,11 +45,14 @@ export default function AboutMenuBar() {
           </Typography>
           <FreeResourcesDropdown />
           <Typography
+            component={Link}
+            href="https://www.findstudenthousing.nl/"
             sx={{
               minWidth: 100,
               color: "black",
               fontSize: 18,
               ml: "2rem",
+              textDecoration: "none",
             }}
           >
             30-Day Search Strategy
